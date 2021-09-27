@@ -1,76 +1,95 @@
 package proyecto.biblioteca.finall;
 
 public class Libro {
-
-	private String codigo;
-	protected String nombre;
-	protected String autor;
-	protected int añoDePublicación;
-	protected String editorial;
+    private String codigo;
+	protected String nombre=null;
+	protected String autor=null;
+	protected int añoDePublicacionV;
+	protected String editorial=null;
 	protected int cantidadDePaginas;
 	protected int precio;
+        protected String estado=null;
+        protected String estudiante=null;
+    @Override
+    public String toString() {
+        return "Libro{" + "codigo=" + codigo + ", nombre=" + nombre + ", autor=" + autor + ", añoDePublicacionV" +añoDePublicacionV + ", editorial=" + editorial + ", cantidadDePaginas=" + cantidadDePaginas + ", precio=" + precio + ", estado=" + estado + '}';
+    }
 
-	@Override
-	public String toString() {
-		return "Libro [codigo=" + codigo + ", nombre=" + nombre + ", autor=" + autor + ", añoDePublicación="
-				+ añoDePublicación + ", editorial=" + editorial + ", cantidadDePaginas=" + cantidadDePaginas
-				+ ", precio=" + precio + "]";
-	}
+    public String getCodigo() {
+        return codigo;
+    }
 
-	public String getCodigo() {
-		return codigo;
-	}
+    public String getNombre() {
+        return nombre;
+    }
 
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
-	}
+    public String getAutor() {
+        return autor;
+    }
 
-	public String getNombre() {
-		return nombre;
-	}
+    public int getAñoDePublicacionV() {
+        return añoDePublicacionV;
+    }
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+    public String getEditorial() {
+        return editorial;
+    }
 
-	public String getAutor() {
-		return autor;
-	}
+    public int getCantidadDePaginas() {
+        return cantidadDePaginas;
+    }
 
-	public void setAutor(String autor) {
-		this.autor = autor;
-	}
+    public int getPrecio() {
+        return precio;
+    }
 
-	public int getAñoDePublicación() {
-		return añoDePublicación;
-	}
+    public String getEstado() {
+        return estado;
+    }
 
-	public void setAñoDePublicación(int añoDePublicación) {
-		this.añoDePublicación = añoDePublicación;
-	}
+    public String getEstudiante() {
+        return estudiante;
+    }
 
-	public String getEditorial() {
-		return editorial;
-	}
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
 
-	public void setEditorial(String editorial) {
-		editorial = editorial;
-	}
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-	public int getCantidadDePaginas() {
-		return cantidadDePaginas;
-	}
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
 
-	public void setCantidadDePaginas(int cantidadDePaginas) {
-		this.cantidadDePaginas = cantidadDePaginas;
-	}
+    public void setAñoDePublicacionV(int añoDePublicacionV) {
+        this.añoDePublicacionV = añoDePublicacionV;
+    }
 
-	public int getPrecio() {
-		return precio;
-	}
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
 
-	public void setPrecio(int precio) {
-		this.precio = precio;
-	}
+    public void setCantidadDePaginas(int cantidadDePaginas) {
+        this.cantidadDePaginas = cantidadDePaginas;
+    }
 
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public void setEstudiante(String estudiante) {
+        this.estudiante = estudiante;
+    }
+
+	
+	
+
+	
+        
 }

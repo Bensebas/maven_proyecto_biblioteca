@@ -1,7 +1,6 @@
 package proyecto.biblioteca.finall;
 
-public class LibroDeTrabajo extends Libro {
-
+public class LibroDeTrabajo {
 	int codigoDeAutorizacion;
 
 	@Override
@@ -16,5 +15,4 @@ public class LibroDeTrabajo extends Libro {
 	public void setCodigoDeAutorizacion(int codigoDeAutorizacion) {
 		this.codigoDeAutorizacion = codigoDeAutorizacion;
 	}
-
 }

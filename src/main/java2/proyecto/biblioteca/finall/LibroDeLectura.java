@@ -1,8 +1,7 @@
 package proyecto.biblioteca.finall;
 
-public class LibroDeLectura extends Libro {
-
-	int tiempoAproximadoDeLectura;
+public class LibroDeLectura {
+    int tiempoAproximadoDeLectura;
 
 	@Override
 	public String toString() {
@@ -16,5 +15,5 @@ public class LibroDeLectura extends Libro {
 	public void setTiempoAproximadoDeLectura(int tiempoAproximadoDeLectura) {
 		this.tiempoAproximadoDeLectura = tiempoAproximadoDeLectura;
 	}
-
 }
+
