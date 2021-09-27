@@ -32,6 +32,7 @@ public class Main {
 			System.out.println("*************************");
 			System.out.println("1. Estudiantes:");
 			System.out.println("2. Bibliotecario");
+			System.out.println("3 SALIR");
 
 			System.out.println("*************************");
 			opcion = LectorN.nextInt();
@@ -183,7 +184,7 @@ public class Main {
 					}
 
 				} else if (ter.equals("c")) {
-					System.out.println("Aún no se ha implementado esta función, lo sentimos");
+					System.out.println(" no se ha implementado esta funcion, lo sentimos");
 
 				}
 
