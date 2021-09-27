@@ -89,10 +89,10 @@ public class Main {
 						if (listBib[i].getCodigo().equals(cod)) {
 							System.out.println("El libro fue encontrado:");
 							System.out.println(listBib[i].toString());
-							System.out.println("¿Es este el libro que deseas reservar? (yes/no)");
+							System.out.println("�Es este el libro que deseas reservar? (yes/no)");
 							String var = Lector.next();
 							if (var.equals("yes")) {
-								System.out.println("Ingresa tu cédula: ");
+								System.out.println("Ingresa tu cedula: ");
 								String ced = Lector.next();
 								listBib[i].setEstudiante(ced);
 								listBib[i].setEstado("Reservado");
@@ -105,7 +105,7 @@ public class Main {
 					}
 
 				} else if (ter.equals("c")) {
-					System.out.println("Ingresa tu cédula para verificar si reservaste\n");
+					System.out.println("Ingresa tu cedula para verificar si reservaste\n");
 					String ced = Lector.next();
 
 					for (int i = 0; i < 5; i++) {
